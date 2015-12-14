@@ -365,3 +365,139 @@ p {
     position: absolute;
     top: 100%;
 }
+
+/*next ball*/
+
+.ultra_pokeball {
+	position:absolute;
+	height:200px;
+	width:200px;
+	right:50%;
+	top:10%;
+	background-color:yellow;
+    z-index: 1;
+}
+
+.ultra_pokeball:hover{
+    top: 0%;
+    height: 100%;
+    right: 0%;
+    width: 100%;
+    transition-duration: 5s;
+    z-index: 2;
+}
+
+.ultra_pokeball:hover > .starter_lower_box {
+    top: 50%;
+    height: 50%;
+    right: 0%;
+    width: 100%;
+    transition-duration: 0s;
+}
+
+.ultra_pokeball:hover > .starter_right_box {
+    top: 49%;
+    height: 2%;
+    right: 40%;
+    width: 60%;
+    transition-duration: 0s;
+}
+
+.ultra_pokeball:hover > .starter_left_box {
+    top: 49%;
+    height: 2%;
+    right: 45%;
+    width: 45%;
+    transition-duration: 0s;
+}
+
+.ultra_pokeball:hover > .starter_inner_box {
+    top: 37.5%;
+    height: 25%;
+    right: 43%;
+    width: 17.5%;
+    transition-duration: 0s;
+}
+
+.ultra_pokeball:hover > .starter_mid_box {
+    top: 25%;
+    height: 50%;
+    right: 40%;
+    width: 25%;
+    transition-duration: 5s;
+}
+
+.ultra_pokeball:hover>.titles{
+    top: 45%;
+    left: 45%;
+    z-index: 3;
+    background-color: gray;
+}
+
+/*next ball*/
+
+.dive_pokeball {
+	position:absolute;
+	height:200px;
+	width:200px;
+	right:50%;
+	top:70%;
+	background-color:lightblue;
+    z-index: 1;
+}
+
+.dive_pokeball:hover{
+    top: 0%;
+    height: 100%;
+    right: 0%;
+    width: 100%;
+    transition-duration: 5s;
+    z-index: 2;
+}
+
+.dive_pokeball:hover > .starter_lower_box {
+    top: 50%;
+    height: 50%;
+    right: 0%;
+    width: 100%;
+    transition-duration: 0s;
+}
+
+.dive_pokeball:hover > .starter_right_box {
+    top: 49%;
+    height: 2%;
+    right: 40%;
+    width: 60%;
+    transition-duration: 0s;
+}
+
+.dive_pokeball:hover > .starter_left_box {
+    top: 49%;
+    height: 2%;
+    right: 45%;
+    width: 45%;
+    transition-duration: 0s;
+}
+
+.dive_pokeball:hover > .starter_inner_box {
+    top: 37.5%;
+    height: 25%;
+    right: 43%;
+    width: 17.5%;
+    transition-duration: 0s;
+}
+
+.dive_pokeball:hover > .starter_mid_box {
+    top: 25%;
+    height: 50%;
+    right: 40%;
+    width: 25%;
+    transition-duration: 5s;
+}
+
+.dive_pokeball:hover>.titles{
+    top: 45%;
+    left: 45%;
+    z-index: 3;
+    background-color: gray;
+}
